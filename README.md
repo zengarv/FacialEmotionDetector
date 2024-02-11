@@ -23,3 +23,10 @@ Note: Several markdown cells have been added as notes, which were found by the a
 
 ## Attempt 2: Using Transfer Learning (Unfinished)
 The MobileNetv2 was used as a base model and batch-learning was attempted to load data into the model. However, the training remains incomplete as it was hit with insufficient resources error. 
+
+
+### Scope for further improvement:
+- Implementing Batch Learning
+- Using other/better pre-trained models like ResNetv3_large
+- Increasing the epochs for which the model is trained on
+- Implementing checkpoints and graphing model performance during training
